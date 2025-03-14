@@ -118,3 +118,41 @@ body {
   object-fit: cover;
   /* mix-blend-mode: lighten; */
 }
+.react-tabs__tab-list {
+  border-style: none !important;
+  border-style: none !important;
+}
+.react-tabs__tab--selected {
+  background: #7cf03d !important;
+  cursor: pointer !important;
+  border-style: none !important;
+}
+.react-tabs__tab--selected {
+  border-style: none !important;
+}
+
+.btnss {
+  background-image: linear-gradient(
+    to right,
+    #aa076b 0%,
+    #61045f 51%,
+    #aa076b 100%
+  );
+}
+.btnss {
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+
+  border-radius: 10px;
+  display: block;
+}
+
+.btnss:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
