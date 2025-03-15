@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import SMSM from "../assets/icon/smsm.png";
 
 const Nabar = () => {
   const navbars = (
@@ -94,7 +95,7 @@ rgb(240, 240, 240)] shadow-sm w-11/12 mx-auto py-3"
         <Link>
           <div className="flex items-center">
             <div>
-              <img className="w-20 h-16 " src="/src/assets/smsm.png" alt="" />
+              <img className="w-20 h-16 " src={SMSM} alt="" />
             </div>
             <div>
               <h1 className="text-4xl sm:hidden lg:block font-semibold">

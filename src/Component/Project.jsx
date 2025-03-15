@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-scroll";
 
+import AProtsc from "../../src/assets/icon/aprtifacts.png";
+import Travale from "../../src/assets/icon/travale.png";
+import Tourigom from "../../src/assets/icon/tourigom.png";
+
 const Project = () => {
   return (
     <div className="w-11/12 mx-auto pb-10 py-10">
@@ -9,7 +13,7 @@ const Project = () => {
       </div>
       <div className="flex items-center rounded-2xl h-96 gap-3 ">
         <div className=" w-[50%]  h-full overflow-hidden rounded-2xl ">
-          <img className="" src="/src/assets/aprtifacts.png " alt="" />
+          <img className="" src={AProtsc} alt="" />
         </div>
         <div className=" w-[50%] ">
           <p className="text-2xl font-bold py-3 ">smirok</p>
@@ -156,12 +160,12 @@ const Project = () => {
           </div>
         </div>
         <div className=" w-[50%]  h-full overflow-hidden rounded-2xl ">
-          <img className="" src="/src/assets/travale.png " alt="" />
+          <img className="" src={Travale} alt="" />
         </div>
       </div>
       <div className="flex mt-10  items-center rounded-2xl h-96 gap-3 border-2 border-[rgba(50,205,50,0.36)]">
         <div className=" w-[50%]  h-full overflow-hidden rounded-2xl ">
-          <img className="" src="/src/assets/tourigom.png " alt="" />
+          <img className="" src={Tourigom} alt="" />
         </div>
         <div className=" w-[50%] ">
           <p className="text-2xl font-bold py-3 ">smirok</p>

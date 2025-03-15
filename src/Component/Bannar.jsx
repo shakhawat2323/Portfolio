@@ -7,7 +7,7 @@ import { LuGithub } from "react-icons/lu";
 import { FaWhatsapp } from "react-icons/fa";
 import { PiReadCvLogoBold } from "react-icons/pi";
 import { LuContact } from "react-icons/lu";
-
+import SHakhawat from "../assets/icon/shakhawat.png";
 const Bannar = () => {
   return (
     <div className=" w-10/12 mx-auto lg:mt-20 flex items-center  justify-between">
@@ -72,7 +72,7 @@ const Bannar = () => {
         <div className="home-img">
           <div className="w-72 rounded-full img-box">
             <div className="img-item">
-              <img className="" src="/src/assets/shakhawat.png" alt="" />
+              <img className="" src={SHakhawat} alt="" />
             </div>
           </div>
         </div>
