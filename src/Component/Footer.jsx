@@ -1,12 +1,12 @@
 import React from "react";
 import { FaFacebookF, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { LuGithub } from "react-icons/lu";
-
+import SM from "../assets/icon/smsm.png";
 const Footer = () => {
   return (
     <footer className="footer sm:footer-horizontal bg-base-200 border-t-1 border-[rgba(220,220,220,0.59)] text-base-content p-10">
       <aside className="flex flex-col items-center">
-        <img className="w-20" src="/src/assets/smsm.png" alt="" />
+        <img className="w-20" src={SM} alt="" />
         <p className="text-2xl font-bold ">Shakhawat islam</p>
       </aside>
       <nav>

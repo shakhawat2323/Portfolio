@@ -3,7 +3,7 @@ import { LuBox } from "react-icons/lu";
 import { RiGraduationCapFill } from "react-icons/ri";
 import { PiCubeFocusFill } from "react-icons/pi";
 import { IoBookOutline } from "react-icons/io5";
-
+import Shakhawat from "../assets/icon/shakhawat.png";
 const Services = () => {
   return (
     <div className="text  w-11/12 mx-auto ">
@@ -14,11 +14,7 @@ const Services = () => {
             <div className="flex items-center">
               <div className="avatar p-5">
                 <div className="w-24  rounded-full border-2 border-[#32cd32]  ">
-                  <img
-                    className="w-20 "
-                    src="/src/assets/shakhawat.png"
-                    alt=""
-                  />
+                  <img className="w-20 " src={Shakhawat} alt="" />
                 </div>
               </div>
               <div>
